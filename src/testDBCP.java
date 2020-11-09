@@ -9,6 +9,8 @@ public class testDBCP {
         PreparedStatement preparedStatement=null;
         ResultSet resultSet=null;
         String test;
+        System.out.println("更新1");
+        System.out.println("更新2");
         String sq1="update account set money =5000 where `name`='C'";
         try {
              preparedStatement = connection.prepareStatement(sq1);
