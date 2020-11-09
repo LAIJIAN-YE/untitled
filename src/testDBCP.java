@@ -8,6 +8,7 @@ public class testDBCP {
         Connection connection=DBCPutil.getconetion();
         PreparedStatement preparedStatement=null;
         ResultSet resultSet=null;
+        String test;
         String sq1="update account set money =5000 where `name`='C'";
         try {
              preparedStatement = connection.prepareStatement(sq1);
