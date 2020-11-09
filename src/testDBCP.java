@@ -13,6 +13,7 @@ public class testDBCP {
         System.out.println("更新1");
         System.out.println("更新2");
         System.out.println("更新3");
+             System.out.println("更新4");
         String sq1="update account set money =5000 where `name`='C'";
         try {
              preparedStatement = connection.prepareStatement(sq1);
